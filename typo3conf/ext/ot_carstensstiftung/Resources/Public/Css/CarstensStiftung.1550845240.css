@@ -1,0 +1,62 @@
+/* Formulare */
+
+fieldset {
+	position: relative;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	/*padding: 0 !important;*/
+}
+.form-group{
+	padding: 4px 10px;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+	width: 100%;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	margin: 0;
+	border: solid #56A03B 1px;
+}
+input[type=text],
+input[type=email] {
+	height: 30px;
+}
+
+fieldset legend {
+	border: none !important;
+	font-weight: bold;
+}
+select {
+	box-sizing: border-box;
+	height: 30px;
+
+	border: solid #56A03B 1px;
+}
+select option{
+	line-height: 30px;
+	padding: 4px;
+	margin: 0px 2px;
+}
+fieldset .help-block {
+	font-size: 12px;
+}
+input[type=radio] {
+	width: auto;
+	margin-right: 15px;
+}
+.btn.btn-primary {
+	background-color: #56A03B;
+	color: #fff;
+	padding: 6px 8px;
+	border: none;
+}
+.btn.btn-primary:hover {
+	background-color: #fff;
+	color: #56A03B;
+	outline: 2px solid #56A03B;
+	padding: 6px 8px;
+	border: none;
+}

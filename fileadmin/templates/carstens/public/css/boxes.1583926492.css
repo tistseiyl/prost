@@ -1,0 +1,1164 @@
+div[class^="ge-"] div[class^="bg-box-"],
+div[class^="ge-"] div[class^="ka-"] {
+    width: 100%;
+    display: table;
+}
+
+div[class^="ge-"] div[class^="bg-box-"] span,
+div[class^="ge-"] div[class^="ka"] span {
+    display: table-cell;
+    /*vertical-align:bottom;*/
+}
+
+div[class^="ge-"] div[class^="bg-box-"] span p,
+div[class^="ge-"] div[class^="ka-"] span p {
+    margin: 0;
+}
+
+div[class^="ge-"] div[class^="bg-box-100"] span {
+    text-align: left;
+    padding-left: 0;
+    padding-top: 0;
+}
+
+div[class^="ge-"] div[class^="bg-box-100x305"] span {
+    vertical-align: top !important;
+}
+
+div[class^="ge-"] div[class^="bg-box-100x500"] span,
+div[class^="ge-33"] div[class^="bg-box-"] span,
+div[class^="ge-33"] div[class^="ka-"] span {
+    vertical-align: bottom;
+    text-align: left;
+}
+
+div[class^="bg-box"],
+div[class^="ka-"],
+.author {
+    padding: 20px 20px 15px 20px !important;
+    /*  KERSTIN - hier bitte das Standard-Padding für die Kacheln/Boxen
+   auf der Homepage eingeben.*/
+
+}
+
+.article div[class^="bg-box"],
+.article div[class^="ka-"],
+.article .author {
+    padding: 20px 20px 15px 20px !important;
+    /* KERSTIN - hier bitte das Standard-Padding für die Kacheln/Boxen
+    in den Artikeln eingeben.
+    */
+}
+
+.ge-50 div[class^="bg-box-"] {
+    height: 305px;
+    padding: 15px 15px 10px 15px;
+}
+
+.ge-33 div[class^="bg-box-"],
+.ge-33 div[class^="ka-"] {
+    height: 200px;
+    padding: 15px 15px 10px 15px;
+    font-size: 100%;
+    line-height: 120%;
+}
+
+.ge-100x205 div[class^="bg-box-"] {
+    height: 205px;
+    padding: 15px 15px 10px 10px;
+}
+
+.ge-100x305 div[class^="bg-box-"] {
+    height: 305px;
+    padding: 15px 15px 10px 10px;
+}
+
+.ge-100x500 div[class^="bg-box-"] {
+    height: 500px;
+    padding: 35px 35px 30px 35px;
+}
+
+
+.bg-box-newsletter {
+    background-image: url(../images/cast_newsletter.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+
+    height: inherit;
+    overflow: hidden;
+    font-family: "FrutigerLTW02-55Roman", Roboto, sans-serif;
+}
+
+.bg-box-newsletter2 {
+    background-image: url(../images/cast_newsletter.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-color: rgb(86, 160, 59) /*#56A03B*/;
+    height: inherit;
+    overflow: hidden;
+    font-family: "FrutigerLTW02-55Roman", Roboto, sans-serif;
+}
+
+.bg-box-newsletter2 h2 {
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+
+
+.article .bg-box-newsletter {
+    background-image: url(../images/cast_newsletter.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -95px;
+    color: #fff;
+    background-color: #56A03B;
+    height: inherit;
+    overflow: hidden;
+    font-family: "FrutigerLTW02-55Roman", Roboto, sans-serif;
+    padding: 5%;
+    height: 280px;
+}
+
+.article .bg-box-newsletter h2 {
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+
+
+.bg-box-newsletter h1,
+.bg-box-newsletter h2,
+.bg-box-newsletter h3,
+.bg-box-newsletter h4,
+.bg-box-newsletter h5 {
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+
+.bg-box-mitglied-1 {
+    background-image: url(../images/cast_mitglied.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: inherit;
+    color: #808080;
+    overflow: hidden;
+    font-family: "FrutigerLTW02-55Roman", Roboto, sans-serif;
+}
+
+.bg-box-mitglied-1 h1,
+.bg-box-mitglied-1 h2,
+.bg-box-mitglied-1 h3,
+.bg-box-mitglied-1 h4,
+.bg-box-mitglied-1 h5 {
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+    color: #808080;
+    margin: 0;
+}
+
+
+.ka-green, .ka-conclusion {
+    background-color: #56A03B;
+    color: #fff;
+    /*height: 200px;*/
+    padding: 15px 15px 10px 15px;
+    margin: 0 0 25px 0;
+}
+
+
+.bg-box-paed-1 {
+    background-image: url(../images/cast_paediatrie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    vertical-align: bottom;
+    overflow: hidden;
+    font-family: "FrutigerLTW02-55Roman", Roboto, sans-serif;
+}
+
+.bg-box-paed-1 h1,
+.bg-box-paed-1 h2,
+.bg-box-paed-1 h3,
+.bg-box-paed-1 h4,
+.bg-box-paed-1 h5 {
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0;
+}
+
+
+.bg-box-studien-1 {
+    background-image: url(../images/cast_studien1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #808080;
+
+    height: inherit;
+    overflow: hidden;
+    font-family: "FrutigerLTW02-55Roman", Roboto, sans-serif;
+}
+
+.bg-box-studien-1 h1,
+.bg-box-studien-1 h2,
+.bg-box-studien-1 h3,
+.bg-box-studien-1 h4,
+.bg-box-studien-1 h5 {
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+    color: #808080;
+    margin: 0;
+}
+
+
+.bg-box-100x205-1 {
+    background-image: url(../images/cast_kvc_verlag.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+    color: #ffffff;
+
+    overflow: hidden;
+    font-family: "FrutigerLTW02-55Roman", Roboto, sans-serif;
+}
+
+.bg-box-100x205-1 h1,
+.bg-box-100x205-1 h2,
+.bg-box-100x205-1 h3,
+.bg-box-100x205-1 h4,
+.bg-box-100x205-1 h5 {
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0;
+}
+
+
+.bg-box-100x305-1 {
+    background-image: url(../images/cast_10_fragen_an.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    color: #ffffff;
+
+    overflow: hidden;
+    font-family: "FrutigerLTW02-55Roman", Roboto, sans-serif;
+}
+
+.bg-box-100x305-1 h1,
+.bg-box-100x305-1 h2,
+.bg-box-100x305-1 h3,
+.bg-box-100x305-1 h4,
+.bg-box-100x305-1 h5 {
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0;
+}
+
+.bg-box-100x500-1 {
+    background-image: url(../images/cast_slider_karl_veronica_carstens.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+
+    overflow: hidden;
+    font-family: "FrutigerLTW02-55Roman", Roboto, sans-serif;
+}
+
+.bg-box-100x500-1 h1,
+.bg-box-100x500-1 h3,
+.bg-box-100x500-1 h4,
+.bg-box-100x500-1 h5 {
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 0 8px 0;
+    font-size: 110%;
+}
+
+.bg-box-100x500-1 p {
+    font-family: "Selina-Regular", 'Libre Baskerville', sans-serif;
+    color: #ffffff;
+    margin: 0;
+    font-weight: normal;
+    font-size: 250%;
+    line-height: 120%;
+}
+
+.bg-box-100x500-1 p a {
+    font-family: "FrutigerLTW02-55Roman", Roboto, sans-serif;
+    margin: 0;
+    font-weight: normal;
+    font-size: 75%;
+    line-height: 22px;
+}
+
+
+.bg-box-100x500-1 h2 {
+    font-family: "Selina-Regular", 'Libre Baskerville', sans-serif;
+    color: #ffffff;
+    margin: 0;
+    font-weight: normal;
+    font-size: 250%;
+    line-height: 115%;
+    margin-bottom: 25px;
+}
+
+.ka-download {
+    float: left;
+    width: 100%;
+    margin-right: 2%;
+    height: 200px;
+    padding: 10%;
+    background-image: url(../images/background_paper.png);
+    background-size: cover;
+}
+
+.ka-bib-1 {
+    width: 100%;
+    height: 305px;
+    padding: 5%;
+    color: #6f6f6b;
+    background-image: url(../images/875x305_Bibliothek_Literaturservice_Carstens_Stiftung_Natur_und_Medizin.jpg);
+    background-size: cover;
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+}
+
+.ka-bib-1 h2 {
+    color: #ffffff;
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+}
+
+.ka-bib-1 h3 {
+    color: #ffffff;
+    font-family: "FrutigerLTW02-55Roman", Roboto, sans-serif;
+    line-height: 130%;
+}
+
+
+.article .ka-bib-1 {
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    color: #6f6f6b;
+    background-image: url(../images/625x218_Bibliothek_Literaturservice_Carstens_Stiftung_Natur_und_Medizin.jpg);
+    background-size: cover;
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+}
+
+.article .ka-bib-1 h2 {
+    color: #ffffff;
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+}
+
+.article .ka-bib-1 h3 {
+    color: #ffffff;
+    font-family: "FrutigerLTW02-55Roman", Roboto, sans-serif;
+}
+
+
+.ka-bib-2 {
+    width: 100%;
+    height: 305px;
+    padding: 10%;
+    color: #6f6f6b;
+    background-image: url(../images/432x305_Bibliothek_Literaturservice_Carstens_Stiftung_Natur_und_Medizin.jpg);
+    background-size: cover;
+}
+
+.ka-bib-2 h2 {
+    color: #ffffff;
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700; /*text-shadow: 2px 2px #000000;*/
+}
+
+.ka-bib-2 h3 {
+    color: #ffffff;
+    font-family: "FrutigerLTW02-55Roman", Roboto, sans-serif;
+}
+
+
+.ka-top10-3 {
+    width: 100%;
+    height: 200px;
+    padding: 15px 15px 10px 15px;
+    color: #6f6f6b;
+    background-image: url(../images/280x200_Top10_der_Carstens_Stiftung_Natur_und_Medizin.png);
+    background-color: #56A03B;
+    background-size: cover;
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+}
+
+.ka-bib-1 h2 {
+    color: #ffffff;
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+}
+
+.ka-bib-1 h3 {
+    color: #ffffff;
+    font-family: "FrutigerLTW02-55Roman", Roboto, sans-serif;
+}
+
+.ka-bib-2 {
+    width: 100%;
+    height: 305px;
+    padding: 5%;
+    color: #6f6f6b;
+    background-image: url(../images/432x305_Bibliothek_Literaturservice_Carstens_Stiftung_Natur_und_Medizin.jpg);
+    background-size: cover;
+}
+
+.ka-bib-2 h2 {
+    color: #ffffff;
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+    /*text-shadow: 2px 2px #000000;*/
+}
+
+.ka-bib-2 h3 {
+    color: #ffffff;
+    font-family: "FrutigerLTW02-55Roman", Roboto, sans-serif;
+    line-height: 130%;
+}
+
+
+.ka-hom-1 {
+    width: 100%;
+    height: 305px;
+    padding: 10%;
+    color: #6f6f6b;
+    background-image: url(../images/875x305_Homoeopathie_Carstens_Stiftung_Natur_und_Medizin.jpg);
+    background-size: cover;
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+}
+
+.ka-hom-1 h2 {
+    color: #6f6f6b;
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+}
+
+.ka-hom-1 h3 {
+    color: #6f6f6b;
+    font-family: "FrutigerLTW02-55Roman", Roboto, sans-serif;
+}
+
+
+.article .ka-hom-1 {
+    width: 100%;
+    height: auto;
+    padding: 10%;
+    color: #6f6f6b;
+    background-image: url(../images/625x218_Homoeopathie_Carstens_Stiftung_Natur_und_Medizin.jpg);
+    background-size: cover;
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+}
+
+
+.ka-hom-2 {
+    width: 100%;
+    height: 305px;
+    padding: 10%;
+    color: #6f6f6b;
+    background-image: url(../images/432x305_Bibliothek_Literaturservice_Carstens_Stiftung_Natur_und_Medizin.jpg);
+    background-size: cover;
+}
+
+.ka-hom-2 h2 {
+    color: #6f6f6b;
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+    text-shadow: 2px 2px #000000;
+}
+
+.ka-hom-2 h3 {
+    color: #6f6f6b;
+    font-family: "FrutigerLTW02-55Roman", Roboto, sans-serif;
+}
+
+
+.ka-erbschaft {
+    width: 100%;
+    height: 305px;
+    padding: 10%;
+    color: #ffffff;
+    background-image: url(../images/875x305_Erbschaftskachel.jpg);
+    background-size: cover;
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+}
+
+.ka-erbschaft h2 {
+    color: #ffffff;
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+}
+
+.ka-erbschaft h3 {
+    color: #ffffff;
+    font-family: "FrutigerLTW02-55Roman", Roboto, sans-serif;
+}
+
+
+.ka-camnews-1 {
+    width: 100%;
+    height: 300px;
+    padding: 10%;
+    color: #333333;
+    background-image: url(../images/875_305_CAM_Neuigkeiten_Carstens_Stiftung.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+}
+
+.ka-camnews-1 h2 {
+    color: #333333;
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+}
+
+.ka-camnews-1 h3 {
+    color: #333333;
+    font-family: "FrutigerLTW02-55Roman", Roboto, sans-serif;
+}
+
+.ka-camnews-2 {
+    width: 100%;
+    height: 305px;
+    padding: 10%;
+    color: #333333;
+    background-image: url(../images/cam_kleinanzeigen_432x305.jpg);
+    background-size: cover;
+}
+
+.ka-camnews-2 h2 {
+    color: #333333;
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+}
+
+.ka-camnews-2 h3 {
+    color: #333333;
+    font-family: "FrutigerLTW02-55Roman", Roboto, sans-serif;
+}
+
+.article .ka-camnews-1 {
+    background-image: url(../images/cam_kleinanzeigen_625x220.png);
+    height: 220px;
+}
+
+.article .ka-camnews-1 p {
+    height: 0;
+    margin: 0;
+}
+
+
+.ka-cam-1 {
+    width: 100%;
+    height: 300px;
+    padding: 10%;
+    color: #6f6f6b;
+    background-image: url(../images/cam_kleinanzeigen_875x305.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+}
+
+.ka-cam-1 h2 {
+    color: #808080;
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+}
+
+.ka-cam-1 h3 {
+    color: #808080;
+    font-family: "FrutigerLTW02-55Roman", Roboto, sans-serif;
+}
+
+.ka-cam-2 {
+    width: 100%;
+    height: 305px;
+    padding: 10%;
+    color: #6f6f6b;
+    background-image: url(../images/cam_kleinanzeigen_432x305.jpg);
+    background-size: cover;
+}
+
+.ka-cam-2 h2 {
+    color: #808080;
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+}
+
+.ka-cam-2 h3 {
+    color: #808080;
+    font-family: "FrutigerLTW02-55Roman", Roboto, sans-serif;
+}
+
+.article .ka-cam-1 {
+    background-image: url(../images/cam_kleinanzeigen_625x220.png);
+    height: 220px;
+}
+
+.article .ka-cam-1 p {
+    height: 0;
+    margin: 0;
+}
+
+
+.ka-habil-artikel {
+    width: 100%;
+    padding: 5%;
+    color: #ffffff;
+    background-image: url(../images/625x220_Habilprogramm_Carstens_Stiftung.jpg);
+    background-size: cover;
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+}
+
+.ka-habil-artikel h2 {
+    color: #ffffff;
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+}
+
+.ka-habil-artikel h3 {
+    color: #ffffff;
+    font-family: "FrutigerLTW02-55Roman", Roboto, sans-serif;
+}
+
+
+.article .ka-habil-artikel {
+    background-image: url(../images/625x220_Habilprogramm_Carstens_Stiftung.jpg);
+    height: 220px;
+}
+
+.article .ka-habil-artikel p {
+    height: 0;
+    margin: 0;
+}
+
+
+.ka-habil-1 {
+    width: 100%;
+    height: 300px;
+    padding: 5%;
+    color: #ffffff;
+    background-image: url(../images/875x305_Habilprogramm_Carstens_Stiftung.jpg);
+    background-size: cover;
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+}
+
+.ka-habil-1 h2 {
+    color: #ffffff;
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+}
+
+.ka-habil-1 h3 {
+    color: #ffffff;
+    font-family: "FrutigerLTW02-55Roman", Roboto, sans-serif;
+}
+
+
+.article .ka-habil-1 {
+    background-image: url(../images/625x220_Habilprogramm_Carstens_Stiftung.jpg);
+    height: 220px;
+}
+
+.article .ka-habil-1 p {
+    height: 0;
+    margin: 0;
+}
+
+
+.ka-soziale-medien {
+    width: 100%;
+    height: 205px;
+    text-align: center;
+    padding: 5%;
+    color: #6f6f6b;
+    background-size: cover;
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+}
+
+.article .ka-soziale-medien {
+    height: auto;
+}
+
+.ka-soziale-medien h2 {
+    color: #56A03B;
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+}
+
+.ka-soziale-medien h3 {
+    color: #56A03B;
+    font-family: "FrutigerLTW02-55Roman", Roboto, sans-serif;
+}
+
+
+.ka-spenden {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #000000; /*6f6f6b;*/
+    background-size: cover;
+    font-family: "Frutiger LT W04_45 Light", Roboto, sans-serif;
+}
+
+.ka-spenden h2 {
+    color: #56A03B;
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+}
+
+.ka-spenden h3 {
+    color: #56A03B;
+    font-family: "FrutigerLTW02-55Roman", Roboto, sans-serif;
+}
+
+
+#wrapper-inner .pastel {
+    background: #f1f7ed;
+    text-align: center;
+    padding: 35px 35px 10px 35px;
+    min-height: 40px;
+}
+
+#wrapper-inner .pastel h2,
+#wrapper-inner .pastel h3 {
+    font-family: "Frutiger LT W04_45 Light", Roboto, sans-serif;
+}
+
+.kb-framed-50-left {
+    float: left;
+    border: 1px solid #999;
+    padding: 2% 2% 0 2%;
+    width: 47%;
+    margin: 1.5% 3% 4% 0;
+    font-size: 90%;
+    overflow: hidden;
+}
+
+.kb-framed-50-right {
+    float: right;
+    border: 1px solid #999;
+    padding: 2% 2% 0 2%;
+    width: 47%;
+    margin: 1.5% 0 4% 3%;
+    font-size: 90%;
+    overflow: hidden;
+}
+
+div[class^="kb-framed-50-"] img {
+    max-width: 95%;
+}
+
+div[class^="kb-framed-50-"] img {
+    -webkit-box-shadow: 4px 5px 9px -1px rgba(170, 170, 170, 0.48);
+    -moz-box-shadow: 4px 5px 9px -1px rgba(170, 170, 170, 0.48);
+    box-shadow: 4px 5px 9px -1px rgba(170, 170, 170, 0.48);
+    margin-bottom: 12px;
+}
+
+div[class^="kb-framed-50-"] div.maxw img, .no-img-shadow img {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+div[class^="kb-framed-50-"] figure {
+}
+
+div[class^="kb-framed-50-"]:after {
+    /*clear:all;
+    content:"";*/
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+div[class^="kb-framed-"] h1,
+div[class^="kb-framed-"] h2,
+div[class^="kb-framed-"] h3,
+div[class^="kb-framed-"] h4,
+div[class^="kb-framed-"] h5 {
+    font-family: Roboto, sans-serif, "Frutiger LT W02 65 Bold";
+    font-weight: 700;
+    color: #666;
+    margin-bottom: 10px !important;
+}
+
+div[class^="kb-framed-"] h1 a,
+div[class^="kb-framed-"] h2 a,
+div[class^="kb-framed-"] h3 a,
+div[class^="kb-framed-"] h4 a,
+div[class^="kb-framed-"] h5 a {
+    text-decoration: none;
+    color: #666;
+}
+
+
+.kb-framed-100 {
+    border: 1px solid #999;
+    padding: 2% 2% 2% 2%;
+    width: 100%;
+    margin: 1.5% 0 4% 0;
+    font-size: 90%;
+    overflow: hidden;
+}
+
+.kb-quote {
+    background-image: url(../images/kb-quote.jpg);
+    background-position: 0 6%;
+    background-repeat: no-repeat;
+    padding: 0 0 0 60px;
+    color: #56A03B;
+    font-size: 140%;
+    line-height: 130%;
+    margin: 5% 0;
+    background-size: 6%;
+}
+
+
+.kb-quote .quotee {
+    /*font-family: 'Frutiger LT W02 65 Bold';*/
+    font-size: 60%;
+    line-height: 125%;
+    margin-top: 2.5%;
+}
+
+.kb-green-logo {
+    /*background:#f1f7ed /*url(../images/cast_logo_weiss.png);
+    background-position: 90% 20%;
+    background-repeat:no-repeat*/;
+    padding: 15px;
+    min-height: 80px;
+    width: 100%;
+    margin: 5% 0;
+    color: #56A03B;
+    font-size: 100%;
+    border: 1px solid #c00000 /*#56A03B*/;
+}
+
+/* -----------------------------------------------------------------------------
+
+  HAMBURGER ICONS COMPONENT
+  
+----------------------------------------------------------------------------- */
+/**
+ * Toggle Switch Globals
+ *
+ * All switches should take on the class `c-hamburger` as well as their
+ * variant that will give them unique properties. This class is an overview
+ * class that acts as a reset for all versions of the icon.
+ */
+.c-hamburger {
+    display: block !important;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 68px;
+    height: 68px;
+    font-size: 0;
+    text-indent: -9999px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-shadow: none;
+    border-radius: none;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: background 0.3s;
+    transition: background 0.3s;
+}
+
+.c-hamburger:focus {
+    outline: none;
+}
+
+.c-hamburger span {
+    display: block;
+    position: absolute;
+    top: 33px;
+    left: 13px;
+    right: 13px;
+    height: 6px;
+    background: #56A03B;
+    color: #56A03B;
+}
+
+.c-hamburger span::before,
+.c-hamburger span::after {
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background-color: #56A03B;
+    content: "";
+}
+
+.c-hamburger span::before {
+    top: -18px;
+}
+
+.c-hamburger span::after {
+    bottom: -18px;
+}
+
+/**
+ * Style 1
+ *
+ * Rotating hamburger icon (rot), that simply rotates 90 degrees when activated.
+ * Nothing too fancy, simple transition.
+ */
+.c-hamburger--rot {
+    background-color: #28aadc;
+}
+
+.c-hamburger--rot span {
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+}
+
+/* active state, i.e. menu open */
+.c-hamburger--rot.is-active {
+    background-color: #166888;
+}
+
+.c-hamburger--rot.is-active span {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+
+}
+
+/**
+ * Style 2
+ * 
+ * Hamburger to "x" (htx). Takes on a hamburger shape, bars slide
+ * down to center and transform into an "x".
+ */
+.c-hamburger--htx {
+
+    background-color: #fff;
+}
+
+.c-hamburger--htx span {
+    -webkit-transition: background 0s 0.3s;
+    transition: background 0s 0.3s;
+}
+
+.c-hamburger--htx span::before,
+.c-hamburger--htx span::after {
+    -webkit-transition-duration: 0.3s, 0.3s;
+    transition-duration: 0.3s, 0.3s;
+    -webkit-transition-delay: 0.3s, 0s;
+    transition-delay: 0.3s, 0s;
+}
+
+.c-hamburger--htx span::before {
+    -webkit-transition-property: top, -webkit-transform;
+    transition-property: top, transform;
+}
+
+.c-hamburger--htx span::after {
+    -webkit-transition-property: bottom, -webkit-transform;
+    transition-property: bottom, transform;
+}
+
+/* active state, i.e. menu open */
+.c-hamburger--htx.is-active {
+    color: #fff;
+    background-color: #56A03B;
+}
+
+.c-hamburger--htx.is-active span {
+    background: none;
+
+}
+
+.c-hamburger--htx.is-active span::before {
+    top: 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+
+}
+
+.c-hamburger--htx.is-active span::after {
+    bottom: 0;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.c-hamburger--htx.is-active span::before,
+.c-hamburger--htx.is-active span::after {
+    -webkit-transition-delay: 0s, 0.3s;
+    transition-delay: 0s, 0.3s;
+    background-color: #fff;
+}
+
+/**
+ * Style 3
+ *
+ * Hamburger to left-arrow (htla). Hamburger menu transforms to a left-pointing
+ * arrow. Usually indicates an off canvas menu sliding in from left that
+ * will be close on re-click of the icon.
+ */
+.c-hamburger--htla {
+
+    background-color: #fff;
+}
+
+.c-hamburger--htla span {
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+}
+
+.c-hamburger--htla span::before {
+    -webkit-transform-origin: top right;
+    -ms-transform-origin: top right;
+    transform-origin: top right;
+    -webkit-transition: -webkit-transform 0.3s, width 0.3s, top 0.3s;
+    transition: transform 0.3s, width 0.3s, top 0.3s;
+}
+
+.c-hamburger--htla span::after {
+    -webkit-transform-origin: bottom right;
+    -ms-transform-origin: bottom right;
+    transform-origin: bottom right;
+    -webkit-transition: -webkit-transform 0.3s, width 0.3s, bottom 0.3s;
+    transition: transform 0.3s, width 0.3s, bottom 0.3s;
+}
+
+/* active state, i.e. menu open */
+.c-hamburger--htla.is-active {
+    background-color: #fff;
+}
+
+.c-hamburger--htla.is-active span {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.c-hamburger--htla.is-active span::before,
+.c-hamburger--htla.is-active span::after {
+    width: 49%;
+    background-color: #56A03B;
+}
+
+.c-hamburger--htla.is-active span::before {
+    top: 0;
+    -webkit-transform: translateX(30px) translateY(3px) rotate(45deg);
+    -ms-transform: translateX(30px) translateY(3px) rotate(45deg);
+    transform: translateX(30px) translateY(3px) rotate(45deg);
+}
+
+.c-hamburger--htla.is-active span::after {
+    bottom: 0;
+    -webkit-transform: translateX(30px) translateY(-3px) rotate(-45deg);
+    -ms-transform: translateX(30px) translateY(-3px) rotate(-45deg);
+    transform: translateX(30px) translateY(-3px) rotate(-45deg);
+}
+
+/**
+ * Style 4
+ *
+ * Hamburger to right-arrow (htra). Hamburger menu transforms to a
+ * right-pointing arrow. Usually indicates an off canvas menu sliding in from 
+ * right that will be close on re-click of the icon.
+ */
+.c-hamburger--htra {
+    background-color: #ff9650;
+}
+
+.c-hamburger--htra span {
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+}
+
+.c-hamburger--htra span::before {
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-transition: -webkit-transform 0.3s, width 0.3s, top 0.3s;
+    transition: transform 0.3s, width 0.3s, top 0.3s;
+}
+
+.c-hamburger--htra span::after {
+    -webkit-transform-origin: bottom left;
+    -ms-transform-origin: bottom left;
+    transform-origin: bottom left;
+    -webkit-transition: -webkit-transform 0.3s, width 0.3s, bottom 0.3s;
+    transition: transform 0.3s, width 0.3s, bottom 0.3s;
+}
+
+/* active state, i.e. menu open */
+.c-hamburger--htra.is-active {
+    background-color: #e95d00;
+}
+
+.c-hamburger--htra.is-active span {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.c-hamburger--htra.is-active span::before,
+.c-hamburger--htra.is-active span::after {
+    width: 50%;
+}
+
+.c-hamburger--htra.is-active span::before {
+    top: 0;
+    -webkit-transform: translateX(-8px) translateY(4px) rotate(-45deg);
+    -ms-transform: translateX(-8px) translateY(4px) rotate(-45deg);
+    transform: translateX(-8px) translateY(4px) rotate(-45deg);
+}
+
+.c-hamburger--htra.is-active span::after {
+    bottom: 0;
+    -webkit-transform: translateX(-8px) translateY(-4px) rotate(45deg);
+    -ms-transform: translateX(-8px) translateY(-4px) rotate(45deg);
+    transform: translateX(-8px) translateY(-4px) rotate(45deg);
+}
+
+@media only screen and (max-width: 768px) {
+    .kb-framed-50-left {
+        float: none;
+        width: 100%;
+        margin: 1.5% 0 4% 0;
+        font-size: 90%;
+        overflow: hidden;
+    }
+}

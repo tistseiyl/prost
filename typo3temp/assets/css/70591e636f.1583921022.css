@@ -1,0 +1,66 @@
+/* default styles for extension "tx_indexedsearch" */
+		.tx-indexedsearch .tx-indexedsearch-browsebox LI { display:inline; margin-right:5px; }
+		.tx-indexedsearch .tx-indexedsearch-searchbox INPUT.tx-indexedsearch-searchbox-button { width:100px; }
+		.tx-indexedsearch .tx-indexedsearch-searchbox INPUT.tx-indexedsearch-searchbox-sword { width:150px; }
+		.tx-indexedsearch .tx-indexedsearch-whatis { margin-top:10px; margin-bottom:5px; }
+		.tx-indexedsearch .tx-indexedsearch-whatis .tx-indexedsearch-sw { font-weight:bold; font-style:italic; }
+		.tx-indexedsearch .tx-indexedsearch-noresults { text-align:center; font-weight:bold; }
+		.tx-indexedsearch .tx-indexedsearch-res TD.tx-indexedsearch-descr { font-style:italic; }
+		.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-descr .tx-indexedsearch-redMarkup { color:red; }
+		.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-info { background:#eeeeee; }
+		.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-secHead { margin-top:20px; margin-bottom:5px; }
+		.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-secHead H2 { margin-top:0px; margin-bottom:0px; }
+		.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-secHead TD { background:#cccccc; vertical-align:middle; }
+		.tx-indexedsearch .tx-indexedsearch-res .noResume { color:#666666; }
+		.tx-indexedsearch .tx-indexedsearch-category { background:#cccccc; font-size:16px; font-weight:bold; }
+
+		/* Additional styles, needed for the tableless template_css.tmpl (styles don't conflict with the original template) */
+		.tx-indexedsearch .res-tmpl-css { clear:both; margin-bottom:1em; }
+		.tx-indexedsearch .searchbox-tmpl-css LABEL { margin-right:1em; width:10em; float:left; }
+		.tx-indexedsearch .result-count-tmpl-css, .tx-indexedsearch .percent-tmpl-css { letter-spacing:0; font-weight:normal; margin-top:-1.2em; float:right; }
+		.tx-indexedsearch .info-tmpl-css dt, .tx-indexedsearch dl.info-tmpl-css dd { float:left; }
+		.tx-indexedsearch .info-tmpl-css dd.item-mtime { float:none; }
+		.tx-indexedsearch .info-tmpl-css dd.item-path { float:none; }
+/* default styles for extension "tx_tinyaccordion" */
+	ul.tinyaccordion {list-style:none; background:none !important;}
+	ul.tinyaccordion li {background:none !important; padding-left:0px;}
+	ul.tinyaccordion h4 {margin: 0 0 6px 0;padding-left:20px; cursor:pointer; background: url('../../../typo3conf/ext/tinyaccordion/Resources/Public/Images/plus.png') no-repeat 0 3px;}
+	ul.tinyaccordion h4.acc-selected {background: url('../../../typo3conf/ext/tinyaccordion/Resources/Public/Images/minus.png') no-repeat 0 7px;}
+	ul.tinyaccordion h4:hover {text-decoration:underline;}
+	ul.tinyaccordion .acc-section {overflow:hidden;}
+	ul.tinyaccordion .csc-default,
+	ul.tinyaccordion ul.tinyaccordion,
+	ul.tinyaccordion ul.tinyaccordion .news-single-item {padding: 0 0 10px 21px;}
+	ul.tinyaccordion li .csc-header:first-child {display:none;}
+/* default styles for extension "tx_waconcookiemanagement" */
+
+    textarea.f3-form-error {
+        background-color:#FF9F9F;
+        border: 1px #FF0000 solid;
+    }
+
+    input.f3-form-error {
+        background-color:#FF9F9F;
+        border: 1px #FF0000 solid;
+    }
+
+    .tx-wacon-cookie-management table {
+        border-collapse:separate;
+        border-spacing:10px;
+    }
+
+    .tx-wacon-cookie-management table th {
+        font-weight:bold;
+    }
+
+    .tx-wacon-cookie-management table td {
+        vertical-align:top;
+    }
+
+    .typo3-messages .message-error {
+        color:red;
+    }
+
+    .typo3-messages .message-ok {
+        color:green;
+    }
